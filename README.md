@@ -6,7 +6,7 @@ Key Features:
 
 Model Architecture: A fully connected neural network was used to train on the MNIST dataset. The model consists of multiple layers, including an input layer, hidden layers with activation functions, and an output layer for classification.
 Optimization: Adam optimizer was used along with categorical cross-entropy as the loss function.
-Accuracy: The model achieved an impressive 97.67% accuracy on the test set, demonstrating strong generalization to unseen data.
+Accuracy: The model achieved an impressive 97-98% accuracy on the test set, demonstrating strong generalization to unseen data.
 Frameworks Used: TensorFlow/Keras (or any other framework you used).
 How to Use:
 
