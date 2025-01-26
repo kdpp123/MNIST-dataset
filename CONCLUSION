@@ -1,0 +1,30 @@
+CONCLUSION
+	Confusion Matrix Analysis:
+A confusion matrix is used to compute the following metrics:
+•	True Positives (TP): Correctly predicted values for a specific class (diagonal elements).
+•	False Negatives (FN): True values that were misclassified into another class (sum of rows excluding the diagonal element for that class).
+•	False Positives (FP): Predicted values that belong to a different class (sum of columns excluding the diagonal element for that class).
+•	True Negatives (TN): Correctly identified as not belonging to a specific class (everything except TP, FN, FP).
+Metrics Per Class:
+For each class (0–9), the metrics (True Positives, True Negatives, False Positives, False Negatives) are as follows:
+Class	TP	TN	FP	FN
+0	968	9004	16	12
+1	1125	8857	8	10
+2	1017	8938	30	15
+3	986	8963	27	24
+4	967	8997	21	15
+5	864	9090	18	28
+6	942	9025	17	16
+7	1004	8947	25	24
+8	942	9006	20	32
+9	977	8965	26	32
+Overall Metrics:
+•	True Positives (TP): 9792
+•	True Negatives (TN): 89,792
+•	False Positives (FP): 208
+•	False Negatives (FN): 208
+	Conclusion: • High Accuracy: The model correctly classified most of the digits, with an overall accuracy of approximately 97.92% (as reflected in the earlier evaluation and the confusion matrix).
+•  Misclassification: Some digits (like 3, 5, 8, and 9) had higher FN and FP values, indicating they were more prone to misclassification. For example:
+•	Digit 5 had 28 false negatives, where it was incorrectly classified as another digit.
+•	Digit 8 had the highest false negatives (32), showing that it was frequently misclassified.
+•  Balanced Performance: Despite minor misclassifications, the model performs consistently across all classes, as evidenced by high TP and TN values.
